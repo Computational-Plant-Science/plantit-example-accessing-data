@@ -5,7 +5,7 @@ clone: False
 image: docker://alpine
 commands: cat "$INPUT" && cat "$INPUT" >> cowsaid.txt
 from: /iplant/home/shared/iplantcollaborative/testing_tools/cowsay/cowsay.txt
-to:
+to: cowsaid.txt
 logo: data.png
 resources:
   time: "00:10:00"
