@@ -1,0 +1,14 @@
+name: Hello Data
+author: Wes Bonelli
+public: True
+clone: False
+image: docker://alpine
+commands: cat "$INPUT" && cat "$INPUT" >> cowsaid.txt
+from: /iplant/home/shared/iplantcollaborative/testing_tools/cowsay/cowsay.txt
+to:
+logo: data.png
+resources:
+  time: "00:10:00"
+  mem: "1GB"
+  tasks: 1
+  cores: 1
