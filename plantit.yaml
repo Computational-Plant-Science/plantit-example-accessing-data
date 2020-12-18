@@ -7,6 +7,8 @@ commands: cat "$INPUT" && cat "$INPUT" >> cowsaid.txt
 input:
   path: /iplant/home/shared/iplantcollaborative/testing_tools/cowsay/cowsay.txt
   kind: file
+  filetypes:
+    - txt
 output:
   path:
   include:
