@@ -3,7 +3,7 @@ author: Wes Bonelli
 public: True
 clone: False
 image: docker://alpine
-commands: cat "$INPUT" && cat "$INPUT" >> cowsaid.txt
+commands: cat "$INPUT" && cat "$INPUT" >> cowsaid.txt && cat "$INPUT" >> cosaid.log
 input:
   path: /iplant/home/shared/iplantcollaborative/testing_tools/cowsay/cowsay.txt
   kind: file
@@ -14,6 +14,8 @@ output:
   include:
     names:
       - cowsaid.txt
+    patterns:
+      - log
 logo: data.png
 resources:
   time: "00:10:00"
