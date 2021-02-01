@@ -3,7 +3,7 @@ author: Wes Bonelli
 public: True
 clone: False
 image: docker://alpine
-commands: cat "$INPUT" && cat "$INPUT" >> cowsaid.txt && cat "$INPUT" >> cowsaid.log
+commands: cat "$INPUT" && cat "$INPUT" >> cowsaid.txt
 input:
   path: /iplant/home/shared/iplantcollaborative/testing_tools/cowsay/cowsay.txt
   kind: file
@@ -20,5 +20,5 @@ logo: data.png
 resources:
   time: "00:10:00"
   mem: "1GB"
-  tasks: 1
+  processes: 1
   cores: 1
