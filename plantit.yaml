@@ -1,5 +1,4 @@
-name: Hello Data
-author: Wes Bonelli
+name: Example: Data
 public: True
 clone: False
 image: docker://alpine
