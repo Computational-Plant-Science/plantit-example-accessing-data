@@ -1,4 +1,4 @@
-name: "Example: Data"
+name: "Example: Accessing Data"
 public: True
 clone: False
 image: docker://alpine
