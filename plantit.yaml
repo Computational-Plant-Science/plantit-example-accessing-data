@@ -17,7 +17,7 @@ output:
       - log
 logo: data.png
 jobqueue:
-  time: "00:10:00"
+  walltime: "00:10:00"
   memory: "1GB"
   processes: 1
   cores: 1
