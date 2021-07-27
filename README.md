@@ -1,3 +1,3 @@
-# PlantIT Example: Accessing Data
+# PlantIT Example: Working With Data
 
-A simple PlantIT workflow demonstrating input and output files.
+A basic PlantIT workflow which accepts an input file and produces an output file.
