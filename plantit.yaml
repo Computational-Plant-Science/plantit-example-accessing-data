@@ -1,4 +1,4 @@
-name: Example: Accessing Data
+name: "Example: Accessing Data"
 public: True
 image: docker://alpine
 commands: cat "$INPUT" && cat "$INPUT" >> cowsaid.txt
