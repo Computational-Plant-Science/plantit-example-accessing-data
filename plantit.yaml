@@ -13,8 +13,6 @@ output:
   include:
     names:
       - cowsaid.txt
-    patterns:
-      - log
 logo: data.png
 jobqueue:
   walltime: "00:10:00"
