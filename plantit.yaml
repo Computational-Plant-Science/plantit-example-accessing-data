@@ -1,6 +1,5 @@
-name: "Example: Working With Data"
+name: "Example: Accessing Data"
 public: True
-clone: False
 image: docker://alpine
 commands: cat "$INPUT" && cat "$INPUT" >> cowsaid.txt
 input:
