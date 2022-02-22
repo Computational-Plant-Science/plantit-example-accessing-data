@@ -1,6 +1,6 @@
 name: "Example: Working With Data"
+author: Computational Plant Science Lab
 public: True
-clone: False
 image: docker://alpine
 commands: cat "$INPUT" && cat "$INPUT" >> cowsaid.txt
 input:
